@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 4rem;
+}
+
+.footerCopy {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media(max-width: 375px) {
+    .footer {
+        display: none;
+    }
+}

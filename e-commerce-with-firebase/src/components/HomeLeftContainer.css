@@ -1,0 +1,304 @@
+.homeLeftShadow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 80;
+    opacity: 1;
+}
+
+.mainProductImage {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainProductImageShadow {
+    position: relative;
+}
+
+.iconPrev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    left: -26px;
+    top: 300px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.iconPrevMobile {
+    display: none;
+}
+
+.iconNext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    right: -26px;
+    top: 300px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.iconNextMobile {
+    display: none;
+}
+
+.mainImage1 {
+    cursor: pointer;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.mainImage2 {
+    cursor: pointer;
+    width: 500px;
+    border-radius: 15px;
+    display: none;
+}
+
+.mainImage3 {
+    cursor: pointer;
+    width: 500px;
+    border-radius: 15px;
+    display: none;
+}
+
+.mainImage4 {
+    cursor: pointer;
+    width: 500px;
+    border-radius: 15px;
+    display: none;
+}
+
+.mainImage1.active {
+    cursor: pointer;
+    border-radius: 15px;
+    display: none;
+}
+
+.mainImage2.active {
+    cursor: pointer;
+    display: block;
+}
+
+.mainImage3.active {
+    cursor: pointer;
+    display: block;
+}
+
+.mainImage4.active {
+    cursor: pointer;
+    display: block;
+}
+
+.iconClose {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    cursor: pointer;
+}
+
+#iconClose {
+    width: 20px;
+}
+
+.mainImageShadow1 {
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.mainImageShadow2 {
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.mainImageShadow3 {
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.mainImageShadow4 {
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.mainImageShadow1.active {
+    display: none;
+}
+
+.mainImageShadow2.active {
+    display: block;
+}
+
+.mainImageShadow3.active {
+    display: block;
+}
+
+.mainImageShadow4.active {
+    display: block;
+}
+
+.boxThumbProductShadow {
+    position: relative;
+}
+
+.whiteBoxShadow {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    opacity: 0;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.whiteBoxShadow:hover {
+    opacity: 0.3;
+    border: 2px solid hsl(26, 100%, 55%);
+}
+
+.whiteBox {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background-color: red;
+    /* opacity: 0; */
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.whiteBox:hover {
+    opacity: 0.5;
+    border: 2px solid hsl(26, 100%, 55%);
+}
+
+.thumbProducts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.thumbProduct {
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.thumbProductShadow {
+    width: 125px;
+    border-radius: 14px;
+}
+
+
+.thumbProduct:hover {
+    opacity: .5;
+    border: 3px solid hsl(26, 100%, 55%);
+}
+
+.lightBoxHome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 90;
+    display: none;
+}
+
+.lightBoxHome.active {
+    display: block;
+}
+
+
+@media(max-width: 375px) {
+    .mainImage1 {
+        width: 100%;
+        max-width: 375px;
+    }
+
+    .lightBoxHome.active {
+        display: none;
+    }
+
+    .lightBoxHome {
+        display: none;
+    }
+
+    .thumbProducts {
+        display: none;
+    }
+
+    .boxThumbProductShadow {
+        width: 50px;
+    }
+
+    .mainImage1 {
+        border-radius: 0px;
+        width: 100%;
+        max-width: 375px;
+    }
+
+    .mainImage2 {
+        border-radius: 0px;
+        width: 100%;
+        max-width: 375px;
+    }
+
+    .mainImage3 {
+        border-radius: 0px;
+        width: 100%;
+        max-width: 375px;
+    }
+
+    .mainImage4 {
+        border-radius: 0px;
+        width: 100%;
+        max-width: 375px;
+    }
+
+    .iconNextMobile {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: absolute;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        top: 250px;
+        right: 10px;
+    }
+
+    .iconPrevMobile {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: absolute;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        top: 250px;
+        left: 10px;
+    }
+}

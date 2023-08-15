@@ -1,0 +1,15 @@
+.containerHome {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10rem;
+}
+
+@media(max-width: 375px) {
+    .containerHome {
+        flex-direction: column;
+        padding-inline: 0rem;
+        margin-top: 225px;
+    }
+}
+

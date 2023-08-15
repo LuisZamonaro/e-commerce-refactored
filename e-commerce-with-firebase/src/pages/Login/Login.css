@@ -1,0 +1,42 @@
+.containerLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+    background-color: rgb(231, 243, 250);
+    border: none;
+    outline: none;
+}
+
+.userEmail {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.userPassword {
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+h1 {
+    color: hsl(26, 100%, 55%);
+    margin-bottom: 13px;
+}
+
+.loginToUser {
+    color: hsl(220, 14%, 75%);
+    margin-bottom: 8px;
+}

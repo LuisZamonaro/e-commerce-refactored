@@ -1,0 +1,159 @@
+.sneakerCompany {
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.fallLimited {
+    font-weight: bold;
+    font-size: 40px;
+    width: 500px;
+    margin-bottom: 45px;
+}
+
+.textRight {
+    width: 450px;
+    color: hsl(219, 9%, 45%);
+    margin-bottom: 25px;
+}
+
+.actualPrice {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+#price125 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#percent50 {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    border-radius: 5px;
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(26, 84%, 83%);
+
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    color: hsl(220, 14%, 75%);
+    margin-bottom: 35px;
+}
+
+.addCartArea {
+    display: flex;
+    align-items: center;
+}
+
+.addAndRemove {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+    background-color: hsl(223, 64%, 98%);
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#iconMinus {
+    cursor: pointer;
+}
+
+#iconPlus {
+    cursor: pointer;
+}
+
+#btnAdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: hsl(26, 100%, 55%);
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    gap: 15px;
+    cursor: pointer;
+}
+
+#btnAdd:hover {
+    opacity: .6;
+}
+
+@media(max-width: 375px) {
+    .fallLimited {
+        width: 100%;
+        max-width: 375px;
+    }
+
+    .textRight {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 345px;
+        font-size: 15px;
+        color: hsl(219, 9%, 45%);
+        line-height: 25px;
+    }
+
+    .prices {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 300px;
+    }
+
+    .oldPrice {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .actualPrice {
+        gap: 15px;
+    }
+
+    .homeRight {
+        padding-inline: 1.25rem;
+    }
+
+    .sneakerCompany {
+        margin-top: 0px;
+    }
+
+    .fallLimited {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .addCartArea {
+        flex-direction: column;
+    }
+
+    .addAndRemove {
+        width: 300px;
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+
+    #btnAdd {
+        width: 315px;
+    }
+}
